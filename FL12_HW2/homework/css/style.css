@@ -1,0 +1,115 @@
+
+.tm-nav-item-link:hover {
+    color: #fff;
+    background-color: lightskyblue ;
+}
+
+#home .tm-banner{
+    background: linear-gradient(90deg, lightskyblue, burlywood );
+}
+
+#home .tm-banner-inner{
+    background-color: #fff;
+}
+
+.tm-content-box .tm-team-description-container{
+    max-width: 350px;
+    display: inline-block;
+    vertical-align: center;
+    margin-top: 18%;
+}
+
+.blocks .tm-team-description-container p:last-child {
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    font-style: italic;
+}
+
+.flex-2-col h2 {
+    color: lightskyblue;
+    text-align: center;
+    font-weight: 300;
+}
+.tm-team-img {
+   float: right;
+}
+
+.tm-banner-inner {
+    background: white;
+}
+
+.tm-banner-inner p {
+    animation-name: animate-banner;
+    animation-duration: 4s;
+    text-shadow: 4px 4px 2px #333;
+}
+
+@keyframes animate-banner {
+    from {
+        transform: translate(200px, 0);
+    }
+    to {
+        transform: translate(0,0);
+    }
+}
+.box-bg:hover{
+    color: lightskyblue;
+    background-color: lightgrey;
+
+}
+
+.heading li{
+    list-style: lower-alpha;
+}
+
+.heading li:hover::before {
+    content: ">"
+}
+
+a.text::after {
+    content: "New";
+    color: red;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: super;
+    font-size: 50%;
+}
+
+#contact textarea {
+    background: url("../img/email-icon.png") no-repeat bottom 8px right 8px;
+    background-size: 32px;
+}
+
+input:focus{
+    background-color: lightskyblue;
+}
+
+.tm-section-description p{
+    line-height: 30px;
+    text-indent: 25px;
+}
+
+.heading .padding-medium h2{
+    text-align: center;
+    color: lightskyblue;
+}
+
+.tm-content-box .box-work:nth-child(odd){
+    background: lightskyblue;
+    color: white;
+}
+.tm-content-box .box-work{
+    padding: 15px;
+}
+.box-work p::first-letter{
+    font-weight: 700;
+}
+
+section::before{
+    content:"";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 55px 55px 0 0;
+    border-color: lightskyblue transparent transparent transparent;
+    }
